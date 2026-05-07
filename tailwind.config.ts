@@ -13,7 +13,7 @@ const config: Config = {
         bone: '#FFFFFF',
         smoke: '#a3a3a3',
         // Accents — from spec
-        sky: '#0043EE',          // PRIMARY accent — matches logo blue
+        sky: '#6CBBDE',          // PRIMARY accent — high-intensity blue
         deep: '#216081',         // Depth / pressed state
         sand: '#C29E6A'          // Warm secondary
       },
