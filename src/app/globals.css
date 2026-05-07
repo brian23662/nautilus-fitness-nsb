@@ -13,7 +13,7 @@
   --color-steel: #1a1a1c;
   --color-ash: #333333;          /* dark gray from spec */
   --color-bone: #ffffff;
-  --color-sky: #6cbbde;          /* primary accent */
+  --color-sky: #0043ee;          /* primary accent — matches logo */
   --color-deep: #216081;         /* depth */
   --color-sand: #c29e6a;         /* warm secondary */
   --max-w: 84rem;
@@ -83,6 +83,14 @@ body {
   display: flex;
   width: max-content;
   animation: marquee 40s linear infinite;
+}
+
+/* Keyframes used by .marquee-track. Tailwind's keyframes config doesn't
+   emit a global @keyframes block — only the `animate-marquee` utility
+   would, which we don't use here. So we define it explicitly. */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 /* ──────────────────────────────────────────────
