@@ -94,14 +94,14 @@ export default function Hero() {
           transition={{ duration: 1.2, ease: [0.2, 0.8, 0.2, 1] }}
           className="mb-6"
         >
-          {/* Logo — uses original blue from SVG (#0049ea) */}
+          {/* Logo — new square SVG (1254×1254). Width tuned to preserve prior rendered height. */}
           <Image
             src="/logo.svg"
             alt="Nautilus Fitness NSB"
-            width={520}
-            height={346}
+            width={1254}
+            height={1254}
             priority
-            className="h-auto w-[min(70vw,26rem)] drop-shadow-[0_0_60px_rgba(255,255,255,0.15)]"
+            className="h-auto w-[min(46vw,17.3rem)] drop-shadow-[0_0_60px_rgba(255,255,255,0.15)]"
           />
         </motion.div>
 

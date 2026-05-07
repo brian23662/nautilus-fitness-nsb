@@ -83,7 +83,7 @@ nautilus-fitness-nsb/
 ## Design notes
 
 - **Type pairing**: Anton (heavy condensed display) + Inter (utility) + JetBrains Mono (eyebrow labels). The condensed display gives the grunge/cinematic punch without leaning on Space Grotesk like every other modern gym site.
-- **Color**: Black + charcoal dominate, with brand sky-blue (`#6CBBDE`) used sparingly as the single accent. Deep blue (`#216081`) for hover/scrollbar, warm sand (`#C29E6A`) only for "high intensity" tags.
+- **Color**: Black + charcoal dominate, with brand blue (`#0043EE`) used sparingly as the single accent. Deep blue (`#216081`) for hover/scrollbar, warm sand (`#C29E6A`) only for "high intensity" tags.
 - **Texture**: Site-wide SVG grain overlay (`globals.css → .grain::before`) gives the photos a film feel without making the UI noisy.
 - **Photography**: All black-and-white via CSS `grayscale()` so future colour photos still feel cohesive.
 
